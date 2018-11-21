@@ -25,7 +25,7 @@ EXPOSE    3343 4434 18080
 #VOLUME /opt/csvn/data
 #VOLUME /opt/csvn
 
-COPY files/runme.sh /runme.sh
+COPY runme.sh /runme.sh
 
 RUN	chmod +x /runme.sh
 
